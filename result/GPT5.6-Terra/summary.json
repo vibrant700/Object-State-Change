@@ -1,0 +1,81 @@
+{
+  "n": 2500,
+  "accuracy": 0.528,
+  "random_baseline": 0.2,
+  "parse_errors": 0,
+  "parse_error_rate": 0.0,
+  "accuracy_by_answer_label": {
+    "completed": 0.784,
+    "different": 0.282,
+    "in_progress": 0.562,
+    "not_started": 0.598,
+    "uncertain": 0.414
+  },
+  "accuracy_by_question_category": {
+    "content_quantity_transfer": 0.5212,
+    "mixing_surface_coverage": 0.5821,
+    "open_close_access": 0.4452,
+    "operational_thermal_state": 0.5106,
+    "part_separation": 0.5333,
+    "shape_size_change": 0.5818,
+    "spatial_configuration": 0.4586,
+    "surface_cleanliness": 0.5968
+  },
+  "n_by_answer_label": {
+    "completed": 500,
+    "different": 500,
+    "in_progress": 500,
+    "not_started": 500,
+    "uncertain": 500
+  },
+  "n_by_question_category": {
+    "content_quantity_transfer": 165,
+    "mixing_surface_coverage": 280,
+    "open_close_access": 575,
+    "operational_thermal_state": 235,
+    "part_separation": 60,
+    "shape_size_change": 275,
+    "spatial_configuration": 290,
+    "surface_cleanliness": 620
+  },
+  "confusion_matrix": {
+    "A": {
+      "A": 232,
+      "B": 60,
+      "C": 72,
+      "D": 80,
+      "E": 75
+    },
+    "B": {
+      "A": 39,
+      "B": 245,
+      "C": 57,
+      "D": 68,
+      "E": 62
+    },
+    "C": {
+      "A": 42,
+      "B": 53,
+      "C": 257,
+      "D": 48,
+      "E": 63
+    },
+    "D": {
+      "A": 46,
+      "B": 70,
+      "C": 50,
+      "D": 286,
+      "E": 58
+    },
+    "E": {
+      "A": 53,
+      "B": 48,
+      "C": 63,
+      "D": 73,
+      "E": 300
+    }
+  },
+  "model": "gpt-5.6-terra",
+  "backend": "openai",
+  "request_failures": 0
+}

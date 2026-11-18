@@ -1,0 +1,82 @@
+{
+  "n": 2500,
+  "accuracy": 0.3048,
+  "random_baseline": 0.2,
+  "parse_errors": 0,
+  "parse_error_rate": 0.0,
+  "accuracy_by_answer_label": {
+    "completed": 0.476,
+    "different": 0.062,
+    "in_progress": 0.326,
+    "not_started": 0.24,
+    "uncertain": 0.42
+  },
+  "accuracy_by_question_category": {
+    "content_quantity_transfer": 0.3152,
+    "mixing_surface_coverage": 0.4893,
+    "open_close_access": 0.2539,
+    "operational_thermal_state": 0.417,
+    "part_separation": 0.25,
+    "shape_size_change": 0.4364,
+    "spatial_configuration": 0.231,
+    "surface_cleanliness": 0.2048
+  },
+  "n_by_answer_label": {
+    "completed": 500,
+    "different": 500,
+    "in_progress": 500,
+    "not_started": 500,
+    "uncertain": 500
+  },
+  "n_by_question_category": {
+    "content_quantity_transfer": 165,
+    "mixing_surface_coverage": 280,
+    "open_close_access": 575,
+    "operational_thermal_state": 235,
+    "part_separation": 60,
+    "shape_size_change": 275,
+    "spatial_configuration": 290,
+    "surface_cleanliness": 620
+  },
+  "confusion_matrix": {
+    "A": {
+      "A": 106,
+      "B": 75,
+      "C": 106,
+      "D": 105,
+      "E": 127
+    },
+    "B": {
+      "A": 56,
+      "B": 159,
+      "C": 77,
+      "D": 73,
+      "E": 106
+    },
+    "C": {
+      "A": 41,
+      "B": 82,
+      "C": 145,
+      "D": 78,
+      "E": 117
+    },
+    "D": {
+      "A": 56,
+      "B": 88,
+      "C": 98,
+      "D": 155,
+      "E": 113
+    },
+    "E": {
+      "A": 65,
+      "B": 90,
+      "C": 98,
+      "D": 87,
+      "E": 197
+    }
+  },
+  "model": "qwen-vl-max",
+  "backend": "dashscope",
+  "mode": "text_only_no_images",
+  "request_failures": 0
+}

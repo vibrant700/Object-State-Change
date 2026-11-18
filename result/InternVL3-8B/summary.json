@@ -1,0 +1,81 @@
+{
+  "n": 2500,
+  "accuracy": 0.4252,
+  "random_baseline": 0.2,
+  "parse_errors": 0,
+  "parse_error_rate": 0.0,
+  "accuracy_by_answer_label": {
+    "completed": 0.768,
+    "different": 0.238,
+    "in_progress": 0.47,
+    "not_started": 0.516,
+    "uncertain": 0.134
+  },
+  "accuracy_by_question_category": {
+    "content_quantity_transfer": 0.3636,
+    "mixing_surface_coverage": 0.5143,
+    "open_close_access": 0.3913,
+    "operational_thermal_state": 0.434,
+    "part_separation": 0.3333,
+    "shape_size_change": 0.48,
+    "spatial_configuration": 0.4241,
+    "surface_cleanliness": 0.4145
+  },
+  "n_by_answer_label": {
+    "completed": 500,
+    "different": 500,
+    "in_progress": 500,
+    "not_started": 500,
+    "uncertain": 500
+  },
+  "n_by_question_category": {
+    "content_quantity_transfer": 165,
+    "mixing_surface_coverage": 280,
+    "open_close_access": 575,
+    "operational_thermal_state": 235,
+    "part_separation": 60,
+    "shape_size_change": 275,
+    "spatial_configuration": 290,
+    "surface_cleanliness": 620
+  },
+  "confusion_matrix": {
+    "A": {
+      "A": 194,
+      "B": 47,
+      "C": 68,
+      "D": 104,
+      "E": 106
+    },
+    "B": {
+      "A": 37,
+      "B": 180,
+      "C": 60,
+      "D": 76,
+      "E": 118
+    },
+    "C": {
+      "A": 37,
+      "B": 50,
+      "C": 199,
+      "D": 77,
+      "E": 100
+    },
+    "D": {
+      "A": 59,
+      "B": 59,
+      "C": 57,
+      "D": 235,
+      "E": 100
+    },
+    "E": {
+      "A": 55,
+      "B": 41,
+      "C": 90,
+      "D": 96,
+      "E": 255
+    }
+  },
+  "model": "OpenGVLab/InternVL3-8B",
+  "local_dir": "/root/autodl-tmp/weights/InternVL3-8B",
+  "quantization": "none"
+}
